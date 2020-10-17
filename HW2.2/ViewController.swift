@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        settingValueLabel()
+        
+        viewImageLabel.layer.cornerRadius = 10
+        
     }
     
    private func settingValueLabel() {
